@@ -9,9 +9,10 @@ img {
   object-fit: cover;
 }
 html {
-  font-family: sans-serif;
+  font-family: "Nunito";
   font-size: 12px;
 }
+
 section {
   min-height: 100vh;
   width: 100%;
@@ -19,9 +20,8 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: rgb(26, 26, 27);
+  background-color: #E6E6E6;
 }
-
 .container {
   width: 100%;
   height: 90%;
@@ -32,14 +32,14 @@ section {
 .brand {
   text-align: center;
   font-size: 4rem;
-  color: whitesmoke;
+  color: #FF8552;
   margin-bottom: 30px;
 }
 form {
   width: 90%;
   max-width: 400px;
   margin: 20px auto;
-  background-color: rgb(223, 223, 223);
+  
 }
 input {
   width: 90%;
@@ -48,15 +48,17 @@ input {
   border: none;
   outline: none;
   font-size: 2rem;
-  background-color: rgb(223, 223, 223);
+  background-color: #39393A;
   display: inline-block;
+  color: #E6E6E6;
 }
 form ion-icon {
   width: 8%;
   font-size: 3rem;
   margin-bottom: -8px;
-  color: rgb(75, 75, 75);
+  color: #39393A;
   display: inline-block;
+  
 }
 .search-result {
   margin-top: 50px;
@@ -68,7 +70,7 @@ form ion-icon {
 .item {
   width: 100%;
   border-radius: 8px;
-  background-color: rgb(37, 37, 37);
+  background-color: #39393A;
   padding: 15px;
   overflow: hidden;
 }
@@ -77,8 +79,13 @@ form ion-icon {
   height: 300px;
   border-radius: 4px;
 }
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .search-result .title {
-  color: whitesmoke;
+  color: #FF8552;
   margin: 20px 10px 0 0;
   font-size: 1.8rem;
   font-weight: 400;
@@ -88,8 +95,8 @@ form ion-icon {
   text-align: center;
   width: 130px;
   padding: 10px 0;
-  background-color: #404041;
-  color: whitesmoke;
+  background-color: #FF8552;
+  color: #E6E6E6;
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 20px;
