@@ -124,6 +124,10 @@ form ion-icon {
   font-size: 3rem;
 }
 .bg-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   margin: auto;
   
  /* ; 
@@ -134,10 +138,19 @@ form ion-icon {
   max-height:500px;
   min-height: 500px;
   
-  background-image: url(https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2)) ,url(https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);  ;
   background-size: cover;
   background-repeat: no-repeat
   
+}
+.instruction{
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 3%;
+
 }
 
 @media (max-width: 768px) {
