@@ -11,6 +11,7 @@ img {
 html {
   font-family: "Nunito";
   font-size: 12px;
+  
 }
 
 section {
@@ -20,6 +21,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
+  
   background-color: #E6E6E6;
 }
 .container {
@@ -120,6 +122,22 @@ form ion-icon {
 .container.initial form input {
   padding: 20px;
   font-size: 3rem;
+}
+.bg-img{
+  margin: auto;
+  
+ /* ; 
+  min-width: 300px;
+  max-width: 600px;
+  */
+  width: 90%;
+  max-height:500px;
+  min-height: 500px;
+  
+  background-image: url(https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  background-size: cover;
+  background-repeat: no-repeat
+  
 }
 
 @media (max-width: 768px) {
